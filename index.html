@@ -4,32 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700&display=swap" rel="stylesheet">
     <title>Website about me</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    
+    
+    
 </head>
 <body>
-    <header role="banner" id="mainHeader">
-         <nav role="navigation">
-             <ul>
-                 <li aria-label="about me"><a href="#">About me</a></li>
-                 <li aria-label="services"><a href="#">Services</a></li>
-                 <li aria-label="Contact"><a href="#">Contact</a></li>
+
+    <!-- HEADER -->
+
+    <header role="banner" id="mainHeader"  aria-label="menu list" class="container" >
+
+         <nav role="navigation" class="container__navbar" id="head-list">
+             <ul class="container__menu-list" >
+                 <li aria-label="Normal page", tabindex="0", id="#active"><a href="#" >Normal page</a></li>
+                 <li aria-label="Blind version", tabindex="1"><a href="blind.html">Page for the blind</a></li>
+                 <li aria-label="Contacts", tabindex="2"><a href="#">Contact</a></li>
              </ul>
 
          </nav>
     </header>
 
-    <section role="article" class="main-sect" aria-label="about me section">
-        <h1 aria-label="heading about me">About me</h1>
-        <p aria-label="paragraph about me">LoreSunt consectetur laborum ullamco consectetur dolor.Cupidatat velit anim ullamco irure in ut. Commodo tempor cupidatat adipisicing magna enim nulla. Reprehenderit officia qui est ex minim et amet in ad ipsum. Sit excepteur ullamco adipisicing quis veniam sit amet laboris ut eiusmod dolor. Fugiat aliqua non aliqua eu ullamco do irure minim nisi id laborum dolor cillum. Dolor deserunt eiusmod culpa aliquip dolore. Ullamco minim elit anim commodo id reprehenderit id do.
+    <!-- MAIN INFO -->
 
-            Minim excepteur ex sint amet ex sunt quis excepteur enim ex. Ut laboris ad ut irure in nisi do consequat id culpa esse commodo. Cupidatat occaecat nulla aliqua sunt eiusmod ad pariatur sunt do est nulla qui anim. Velit Lorem voluptate incididunt pariatur tempor. Sunt labore quis consequat voluptate minim consequat eu. Incididunt esse magna pariatur velit deserunt mollit. Esse Lorem nisi esse quis mollit cupidatat ipsum proident id.
+    <div role="main" class="mainInfo" aria-label="about us section"  role="main" , tabindex="3">
+        
+            <h1 aria-label="about us", tabindex="3">About us</h1>
+            <p aria-label="about me paragraph", tabindex="4">
+                Lorem ipsum dolor sit amet consectetur adip totamilique quibusdam rem tenetur sed voluptatibus eveniet.
+                totamilique quibusdam rem tenetur sed voluptatibus eveniettotamilique quibusdam rem tenetur sed voluptatibus eveniet
+                totamilique quibusdam rem tenetur sed voluptatibus eveniet
+            </p>
+        
+    </div>
 
-            Voluptate minim qui elit id excepteur pariatur et quis culpa consectetur commodo eiusmod proident. Qui officia eu veniam amet cupidatat occaecat et. Voluptate anim ex tempor ullamco. Irure culpa amet mollit duis nostrud laborum cillum officia aliquip ex dolore. Nisi id mollit qui velit pariatur ut enim sint sunt amet ullamco nostrud Lorem. Id reprehenderit magna est reprehenderit ut.
+    <!-- SERVICES -->
 
-            Proident ea incididunt eiusmod sint. Esse ut ex voluptate proident aute ipsum amet veniam veniam do magna dolor. Qui ex velit ipsum duis ad qui exercitation ipsum. Dolor occaecat id ullamco reprehenderit duis velit commodo eiusmod excepteur aute tempor occaecat proident amet. Ex labore sint exercitation aute aliquip est et veniam mollit.
+    <div class="serv", tabindex="5", aria-label="Our preferences", role="complementary">
+        <h2 class="serv__title", tabindex="6" aria-label="Preferences title">Our Preferences</h2>
+        <div class="serv__items", tabindex="7" aria-label="Our preferences">
+            <div class="serv__item1", tabindex="8">
+                <i class="fas fa-wheelchair item"></i>
+                <h3>Disability</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptates quis fugit quas architecto sint veniam unde, 
+                    sed dicta impedit, veritatis ad tempora aspernatur 
+                </p>
+            </div>
 
-            Dolor veniam ad ullamco labore eiusmod ad sint velit pariatur deserunt. Proident anim est do irure velit. Laboris dolor non aute id do deserunt consequat quis nostrud adipisicing aliquip exercitation. Excepteur adipisicing ut velit id labore ullamco ex voluptate dolor labore irure duis anim est. Magna ut aliqua sunt sint labore tempor nisi adipisicing.
-        </p>
-    </section>
+            <div class="serv__item2", tabindex="9">
+                <i class="fas fa-low-vision novis item"></i>
+            
+                <h3>Blind</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptates quis fugit quas architecto sint veniam unde, 
+                    sed dicta impedit, veritatis ad tempora aspernatur
+                </p>
+            </div>
+            <div class="serv__item3", tabindex="10">
+                <i class="fas fa-deaf nosl item"></i>
+                <h3>Deaf</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptates quis fugit quas architecto sint veniam unde, 
+                    sed dicta impedit, veritatis ad tempora aspernatur 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHAT WE DO??? -->
+
+    <div class="gallery", role="complementary">
+        <h2 tabindex="11", aria-label="what we do?>">What we do?</h2>
+        <div class="gallery__images">
+            <div class="gallery__fimage">
+
+                <div class="gallery__pos">    
+
+                </div>
+            <h3 tabindex="12">Helps disability people</h3>
+            <p tabindex="13">Lorem ipsum dolor sit amet, cdae?  Consequuntuemporibusct</p>
+            </div>
+            
+
+            <div class="gallery__simage">
+                <div class="gallery__pos1">    
+
+                </div>
+            <h3  tabindex="14">Helps blindless people</h3>
+            <p  tabindex="15">Lorem ipsum dolor sit amet, cdae?  Consequuntuemporibusct</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer aria-label="contacts", role="contentinfo" tabindex="16" aria-label="contentinfo">
+        
+            <h5 aria-label="Contact us">Contact us: </h5>
+            <div class="footer__icons" aria-label="Social medias">
+                <i class="fab fa-facebook-square" aria-label="Facebook"></i>
+                <i class="fab fa-vk" aria-label="Vk"></i>
+                <i class="fab fa-instagram" aria-label="Instagram"></i>
+            </div>
+    </footer >
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
