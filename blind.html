@@ -66,8 +66,8 @@
 
          <nav role="navigation" class="container__navbar">
              <ul class="container__menu-list">
-                 <li aria-label="Normal page", tabindex="0", id="#active"><a href="index.html" >Normal page</a></li>
-                 <li aria-label="Blind version", tabindex="1"><a href="#">Page for the blind</a></li>
+                 <li aria-label="Normal page", tabindex="0", id="#active"><a href="index.html" id="normal">Normal page</a></li>
+                 <li aria-label="Blind version", tabindex="1"><a href="#">Page for blind people</a></li>
                  <li aria-label="Contacts", tabindex="2"><a href="#">About us</a></li>
                  <li aria-label="Contacts", tabindex="2"><a href="#">Preferences</a></li>
                  <li aria-label="Contacts", tabindex="2"><a href="#">Gallery</a></li>
@@ -79,10 +79,10 @@
 
     <!-- MAIN INFO -->
 
-    <div role="main" class="mainInfo" role="main">
+    <div role="main" class="mainInfo" role="main" id="aboutus">
         
             <h1 aria-label="about us", tabindex="3">About us</h1>
-            <p aria-label="about us paragraph", tabindex="4">
+            <p aria-label="about us paragraph", tabindex="4" id="aboutUsText">
                 Lorem ipsum dolor sit amet consectetur adip totamilique quibusdam rem tenetur sed voluptatibus eveniet.
                 totamilique quibusdam rem tenetur sed voluptatibus eveniettotamilique quibusdam rem tenetur sed voluptatibus eveniet
                 totamilique quibusdam rem tenetur sed voluptatibus eveniet
@@ -93,10 +93,10 @@
     <!-- SERVICES -->
 
     <div class="serv", role="complementary">
-        <h2 class="serv__title", tabindex="5" aria-label="Our Preferences">Our Preferences</h2>
+        <h2 class="serv__title", tabindex="5" aria-label="Our Preferences" id="prefTitle">Our Preferences</h2>
         <div class="serv__items">
-            <div class="serv__item1", tabindex="6">
-                <i class="fas fa-wheelchair item"></i>
+            <div class="serv__item1" tabindex="6" id="item1">
+                <i class="fas fa-wheelchair item" style="font-size: 4rem;"></i>
                 <h3>Disability</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -105,8 +105,8 @@
                 </p>
             </div>
 
-            <div class="serv__item2", tabindex="7">
-                <i class="fas fa-low-vision novis item"></i>
+            <div class="serv__item2", tabindex="7" id="item2">
+                <i class="fas fa-low-vision novis item" style="font-size: 4rem;"></i>
             
                 <h3>Blind</h3>
                 <p>
@@ -115,8 +115,8 @@
                     sed dicta impedit, veritatis ad tempora aspernatur
                 </p>
             </div>
-            <div class="serv__item3", tabindex="8">
-                <i class="fas fa-deaf nosl item"></i>
+            <div class="serv__item3", tabindex="8" id="item3">
+                <i class="fas fa-deaf nosl item" style="font-size: 4rem;"></i>
                 <h3>Deaf</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -130,35 +130,35 @@
     <!-- WHAT WE DO??? -->
 
     <div class="gallery", role="complementary">
-        <h2 tabindex="9", aria-label="what we do?>">What we do?</h2>
+        <h2 tabindex="9", aria-label="what we do?>" id="whatwedo">What we do?</h2>
         <div class="gallery__images">
-            <div class="gallery__fimage">
+            <div class="gallery__fimage", tabindex="10" id="helpsdis">
 
                 <div class="gallery__pos">    
 
                 </div>
-            <h3 tabindex="10">Helps disability people</h3>
-            <p tabindex="11">Lorem ipsum dolor sit amet, cdae?  Consequuntuemporibusct</p>
+            <h3 >Helps disability people</h3>
+            <p >Lorem ipsum dolor sit amet, cdae?  Consequuntuemporibusct</p>
             </div>
             
 
-            <div class="gallery__simage">
+            <div class="gallery__simage", tabindex="11" id="helpsblind">
                 <div class="gallery__pos1">    
 
                 </div>
-            <h3  tabindex="12">Helps blindless people</h3>
-            <p  tabindex="13">Lorem ipsum dolor sit amet, cdae?  Consequuntuemporibusct</p>
+            <h3  >Helps blindless people</h3>
+            <p  >Lorem ipsum dolor sit amet, cdae?  Consequuntuemporibusct</p>
             </div>
         </div>
     </div>
 
 
-    <footer aria-label="contacts", role="contentinfo" tabindex="14" aria-label="contentinfo">
-        <h5 aria-label="Contact us" tabindex="15">Contact us: </h5>
-            <div class="footer__icons" aria-label="Social medias" tabindex="15">
-                <i class="fab fa-facebook-square" aria-label="Facebook" tabindex="16"></i>
-                <i class="fab fa-vk" aria-label="Vk" tabindex="17"></i>
-                <i class="fab fa-instagram" aria-label="Instagram" tabindex="18"></i>
+    <footer aria-label="contacts", role="contentinfo", tabindex="12" aria-label="contentinfo" id="foot">
+        <h5 aria-label="Contact us" >Contact us: </h5>
+            <div class="footer__icons" aria-label="Social medias", tabindex="13">
+                <i class="fab fa-facebook-square" aria-label="Facebook", tabindex="14" id="facebook"></i>
+                <i class="fab fa-vk" aria-label="Vk", tabindex="15" id="vk"></i>
+                <i class="fab fa-instagram" aria-label="Instagram", tabindex="16" id="inst"></i>
             </div>
     </footer >
 
